@@ -1,0 +1,22 @@
+---
+cloudformation_retries: 0
+clientvm_instance_type: t2.medium
+
+purpose: development
+
+__meta__:
+  catalog:
+    namespace: openshift
+
+    description: >-
+      this is an OCP Clientvm
+
+    tags:
+      - babylon
+      - ocp
+
+  deployer:
+    scm_url: https://github.com/redhat-cop/agnosticd.git
+    scm_type: git
+    scm_ref: development
+    type: agnosticd
