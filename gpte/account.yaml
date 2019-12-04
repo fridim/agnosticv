@@ -17,3 +17,6 @@ __meta__:
   secrets:
     - gpte-aws-creds
     - gpte-repos
+
+  tower:
+    organization: gpte
