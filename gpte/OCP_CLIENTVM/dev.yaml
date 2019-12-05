@@ -4,8 +4,19 @@ clientvm_instance_type: t2.medium
 
 purpose: development
 
+
+##########################
+# Babylon meta variables #
+##########################
+
+clientvm_instance_image: RHELAMI
+
 __meta__:
+
+  # Catalog Item (OpenShift template)
   catalog:
+    # OpenShift template where agnosticv-operator will
+    # create the template
     namespace: openshift
 
     description: >-
